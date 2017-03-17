@@ -34,7 +34,7 @@ def Miller_Rabin_Test(m, k):
 #test!
 print str(Miller_Rabin_Test(221, 2))
 counter = 0
-for i in range(20, 30001):
+for i in range(20, 30000+1):
     result = Miller_Rabin_Test(i, 3)
     if result == True :
         counter += 1
