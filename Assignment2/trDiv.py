@@ -17,3 +17,5 @@ for i in range(20, 30000+1):
     else:
         print str(i) + ' is composite'
 print counter
+
+# There are 3237 guaranteed primes between 20 and 30,000

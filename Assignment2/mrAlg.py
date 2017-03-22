@@ -52,5 +52,5 @@ for i in range(20, 30000 + 1):
         print str(i) + ' is surely composite'
 print counter
 
-# There are 3237 primes between 20 and 30,000
+# There are 3237 primes between 20 and 30,000 (for k=3)
 

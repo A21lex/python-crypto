@@ -12,3 +12,4 @@ def euc_alg(a, b):
 
 aa = euc_alg(880, 460)
 print aa
+
