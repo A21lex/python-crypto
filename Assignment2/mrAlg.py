@@ -10,6 +10,7 @@ def miller_rabin_test(m, k):
     """
     if m == 2 or m == 3: return True
     if m % 2 == 0: return False  # even m is clearly NOT a prime
+
     # Let m - 1 = 2^s*t, t odd
     n = m - 1
     count_divs = 0
@@ -38,6 +39,8 @@ def miller_rabin_test(m, k):
     return True
 
 
+
+
 # print str(miller_rabin_test(221, 2))
 counter = 0
 for i in range(20, 30000 + 1):
@@ -50,3 +53,4 @@ for i in range(20, 30000 + 1):
 print counter
 
 # There are 3237 primes between 20 and 30,000
+
